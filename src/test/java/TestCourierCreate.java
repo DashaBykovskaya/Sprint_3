@@ -33,7 +33,7 @@ public class TestCourierCreate {
     @Test
         @DisplayName("Create Courier")
         public void createCourierTest(){
-            CreateCourier courier = new CreateCourier("Test177", "Qwerty", "Adam");
+            CreateCourier courier = new CreateCourier("Test71", "Qwerty", "Adam");
             CourierClient courierClient = new CourierClient();
             ValidatableResponse courierCreateResponse = courierClient.postCreateCourier(courier);
             courierCreateResponse.assertThat().statusCode(201).and().body("ok", equalTo(true));
