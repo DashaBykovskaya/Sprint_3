@@ -1,5 +1,7 @@
+import api.OrdersClient;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
+import io.restassured.response.ValidatableResponse;
 import model.CreateOrder;
 import org.junit.Before;
 import org.junit.Test;
@@ -53,13 +55,9 @@ public class TestOrderCreate {
     @DisplayName("Создание заказа")
     public void createOrderColorTest(){
         CreateOrder createOrder = new CreateOrder(firstName, lastName, address, metroStation, phone, rentTime, deliveryDate, comment, color);
-        given()
-                .header("Content-type", "application/json")
-                .and()
-                .body(createOrder)
-                .when()
-                .post("/api/v1/orders")
-                .then().assertThat().statusCode(201)
+        OrdersClient ordersClient = new OrdersClient();
+        ValidatableResponse orderResponse = ordersClient.postCreateOrder(createOrder);
+        orderResponse.assertThat().statusCode(201)
                 .and().assertThat().extract().path("track");
     }
 }
