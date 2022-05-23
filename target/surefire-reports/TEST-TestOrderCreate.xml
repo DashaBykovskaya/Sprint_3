@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestOrderCreate" time="1.302" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\bykovskayadv\Sprint_3\target\test-classes;C:\Users\bykovskayadv\Sprint_3\target\classes;C:\Users\bykovskayadv\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\bykovskayadv\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\bykovskayadv\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\bykovskayadv\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bykovskayadv\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bykovskayadv\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bykovskayadv\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\bykovskayadv\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\bykovskayadv\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\bykovskayadv\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\bykovskayadv\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\bykovskayadv\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\bykovskayadv\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\bykovskayadv\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\bykovskayadv\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\bykovskayadv\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\bykovskayadv\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\bykovskayadv\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\bykovskayadv\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\bykovskayadv\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\bykovskayadv\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="user.country.format" value="BY"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin"/>
+    <property name="sun.java.command" value="C:\Users\BYKOVS~1\AppData\Local\Temp\surefire5718716385312355021\surefirebooter16650126873191311174.jar C:\Users\bykovskayadv\AppData\Local\Temp\surefire5718716385312355021 2022-05-20T23-09-04_393-jvmRun1 surefire5523576539573531963tmp surefire_08291315599267273406tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bykovskayadv\Sprint_3\target\test-classes;C:\Users\bykovskayadv\Sprint_3\target\classes;C:\Users\bykovskayadv\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\bykovskayadv\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\bykovskayadv\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\bykovskayadv\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bykovskayadv\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bykovskayadv\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bykovskayadv\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\bykovskayadv\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\bykovskayadv\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\bykovskayadv\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\bykovskayadv\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\bykovskayadv\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\bykovskayadv\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\bykovskayadv\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\bykovskayadv\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\bykovskayadv\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\bykovskayadv\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\bykovskayadv\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\bykovskayadv\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\bykovskayadv\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\bykovskayadv\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\bykovskayadv\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Users\bykovskayadv\Sprint_3\target/allure-results"/>
+    <property name="user.home" value="C:\Users\bykovskayadv"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bykovskayadv\Sprint_3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\BYKOVS~1\AppData\Local\Temp\surefire5718716385312355021\surefirebooter16650126873191311174.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+10-LTS"/>
+    <property name="user.name" value="BykovskayaDV"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.14.10.1"/>
+    <property name="localRepository" value="C:\Users\bykovskayadv\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BYKOVS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="C:\Users\bykovskayadv\Sprint_3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="ru"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.14_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\WebDriver\bin;C:\Users\bykovskayadv\allure-2.17.3\bin;C:\apache-maven-3.8.5\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Python36\Scripts\;C:\Python36\;C:\Users\bykovskayadv\AppData\Local\Microsoft\WindowsApps;C:\Users\bykovskayadv\AppData\Local\Programs\Fiddler;C:\Program Files (x86)\BrowserStackLocal\;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.14.1+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createOrderColorTest[Тестовые данные: Имя,Фамилия,ВДНХ,80299735245,4,2022-05-01,Дай самокат,[Ljava.lang.String;@54b96813,{9}]" classname="TestOrderCreate" time="0.356"/>
+  <testcase name="createOrderColorTest[Тестовые данные: Петя,Петров,ВДНХ,80299735213,1,2022-04-01,Плиииз,[Ljava.lang.String;@647ce968,{9}]" classname="TestOrderCreate" time="0.306"/>
+  <testcase name="createOrderColorTest[Тестовые данные: Лера,Смирнова,Черниговская,80299455555,10,2022-04-22,Дай самокат,[Ljava.lang.String;@2a2b3aff,{9}]" classname="TestOrderCreate" time="0.315"/>
+  <testcase name="createOrderColorTest[Тестовые данные: Саша,Чикова,Черниговская,80299445555,2,2022-04-12,коммент,[Ljava.lang.String;@4bc9451b,{9}]" classname="TestOrderCreate" time="0.307"/>
+</testsuite>
